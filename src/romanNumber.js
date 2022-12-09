@@ -1,5 +1,5 @@
 let input = document.getElementById('input_number');
-const btnCalvulate = document.getElementById('btn_calculate');
+const btnCalculate = document.getElementById('btn_calculate');
 
 let valueInput = "";
 const minNUmber = 0;
@@ -88,5 +88,5 @@ const toRoman = () => {
   roman = "";
 }
 
-btnCalvulate.addEventListener('click', toRoman);
+btnCalculate.addEventListener('click', toRoman);
 
